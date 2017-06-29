@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case 1 has begun for Valid case check]]>
+    </line>
+    <line>
+      <![CDATA[The Heading of the 1st Page = Sydney Testers Insurance]]>
+    </line>
+    <line>
+      <![CDATA[The Heading of the 2nd Page = Sydney Testers Car Insurance]]>
+    </line>
+    <line>
+      <![CDATA[The Heading of the 3rd Page = Sydney Testers Life Insurance]]>
+    </line>
+    <line>
+      <![CDATA[ Make of Car = Lexus
+ Year of Car = 2010
+ Driver's Age = 18
+ Gender = Female
+ State = South Australia
+ Email-Id = abc@xyz.com
+The final Car Insurance Quote = $51.98]]>
+    </line>
+    <line>
+      <![CDATA[Test case 1 has completed execution, you can also check Console for output]]>
+    </line>
+    <line>
+      <![CDATA[Test case 2 has begun for Invalid case check with Year Error message validation]]>
+    </line>
+    <line>
+      <![CDATA[Year Error Message2 displayed correctly on Page2]]>
+    </line>
+    <line>
+      <![CDATA[Year of Car = abc]]>
+    </line>
+    <line>
+      <![CDATA[Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.]]>
+    </line>
+    <line>
+      <![CDATA[Test case 2 has completed execution, you can also check Console for output]]>
+    </line>
+    <line>
+      <![CDATA[Test case 3 has begun for Invalid case check with Age Error message validation]]>
+    </line>
+    <line>
+      <![CDATA[Age Error Message displayed correctly on Page2]]>
+    </line>
+    <line>
+      <![CDATA[Driver's Age = rrr]]>
+    </line>
+    <line>
+      <![CDATA[Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.]]>
+    </line>
+    <line>
+      <![CDATA[Test case 3 has completed execution, you can also check Console for output]]>
+    </line>
+    <line>
+      <![CDATA[Test case 4 has begun for Invalid case check with Email-Id Error message validation]]>
+    </line>
+    <line>
+      <![CDATA[Email-Id = ab]]>
+    </line>
+    <line>
+      <![CDATA[Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.]]>
+    </line>
+    <line>
+      <![CDATA[Test case 4 has completed execution, you can also check Console for output]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100569" started-at="2017-06-29T02:49:12Z" finished-at="2017-06-29T02:50:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="100569" started-at="2017-06-29T02:49:12Z" finished-at="2017-06-29T02:50:53Z">
+      <class name="scripts.VerifyGetCarQuote">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.VerifyGetCarQuote@178f375]" name="preCondition" is-config="true" duration-ms="16129" started-at="2017-06-29T12:49:12Z" finished-at="2017-06-29T12:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyGetCarQuote()[pri:0, instance:scripts.VerifyGetCarQuote@178f375]" name="testVerifyGetCarQuote" duration-ms="24554" started-at="2017-06-29T12:49:28Z" finished-at="2017-06-29T12:49:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 1 has begun for Valid case check]]>
+            </line>
+            <line>
+              <![CDATA[The Heading of the 1st Page = Sydney Testers Insurance]]>
+            </line>
+            <line>
+              <![CDATA[The Heading of the 2nd Page = Sydney Testers Car Insurance]]>
+            </line>
+            <line>
+              <![CDATA[The Heading of the 3rd Page = Sydney Testers Life Insurance]]>
+            </line>
+            <line>
+              <![CDATA[ Make of Car = Lexus
+ Year of Car = 2010
+ Driver's Age = 18
+ Gender = Female
+ State = South Australia
+ Email-Id = abc@xyz.com
+The final Car Insurance Quote = $51.98]]>
+            </line>
+            <line>
+              <![CDATA[Test case 1 has completed execution, you can also check Console for output]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyGetCarQuote -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.VerifyGetCarQuote@178f375]" name="postCondition" is-config="true" duration-ms="1664" started-at="2017-06-29T12:49:53Z" finished-at="2017-06-29T12:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.VerifyGetCarQuote -->
+      <class name="scripts.VerifyInvalidGetCarQuoteWithErrMessages">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="preCondition" is-config="true" duration-ms="11836" started-at="2017-06-29T12:49:55Z" finished-at="2017-06-29T12:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyInvalidYearErrMessage()[pri:1, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="testVerifyInvalidYearErrMessage" duration-ms="6333" started-at="2017-06-29T12:50:07Z" finished-at="2017-06-29T12:50:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 2 has begun for Invalid case check with Year Error message validation]]>
+            </line>
+            <line>
+              <![CDATA[Year Error Message2 displayed correctly on Page2]]>
+            </line>
+            <line>
+              <![CDATA[Year of Car = abc]]>
+            </line>
+            <line>
+              <![CDATA[Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.]]>
+            </line>
+            <line>
+              <![CDATA[Test case 2 has completed execution, you can also check Console for output]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyInvalidYearErrMessage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="postCondition" is-config="true" duration-ms="1220" started-at="2017-06-29T12:50:13Z" finished-at="2017-06-29T12:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="preCondition" is-config="true" duration-ms="11863" started-at="2017-06-29T12:50:14Z" finished-at="2017-06-29T12:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyInvalidAgeErrMessage()[pri:2, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="testVerifyInvalidAgeErrMessage" duration-ms="6391" started-at="2017-06-29T12:50:26Z" finished-at="2017-06-29T12:50:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 3 has begun for Invalid case check with Age Error message validation]]>
+            </line>
+            <line>
+              <![CDATA[Age Error Message displayed correctly on Page2]]>
+            </line>
+            <line>
+              <![CDATA[Driver's Age = rrr]]>
+            </line>
+            <line>
+              <![CDATA[Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.]]>
+            </line>
+            <line>
+              <![CDATA[Test case 3 has completed execution, you can also check Console for output]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyInvalidAgeErrMessage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="postCondition" is-config="true" duration-ms="1245" started-at="2017-06-29T12:50:32Z" finished-at="2017-06-29T12:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="preCondition" is-config="true" duration-ms="11712" started-at="2017-06-29T12:50:34Z" finished-at="2017-06-29T12:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyInvalidEmailIDErrMessage()[pri:3, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="testVerifyInvalidEmailIDErrMessage" duration-ms="6280" started-at="2017-06-29T12:50:45Z" finished-at="2017-06-29T12:50:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 4 has begun for Invalid case check with Email-Id Error message validation]]>
+            </line>
+            <line>
+              <![CDATA[Email-Id = ab]]>
+            </line>
+            <line>
+              <![CDATA[Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.]]>
+            </line>
+            <line>
+              <![CDATA[Test case 4 has completed execution, you can also check Console for output]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyInvalidEmailIDErrMessage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21]" name="postCondition" is-config="true" duration-ms="1303" started-at="2017-06-29T12:50:52Z" finished-at="2017-06-29T12:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.VerifyInvalidGetCarQuoteWithErrMessages -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

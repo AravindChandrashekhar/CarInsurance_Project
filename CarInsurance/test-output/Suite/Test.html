@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 29 12:49:12 AEST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>100 seconds (100569 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='scripts.VerifyGetCarQuote.testVerifyGetCarQuote()'><b>testVerifyGetCarQuote</b><br>Test class: scripts.VerifyGetCarQuote<br/>
+<a href="#Output-18944964" onClick='toggleBox("Output-18944964", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18944964" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18944964">
+Test case 1 has begun for Valid case check<br/>
+The Heading of the 1st Page = Sydney Testers Insurance<br/>
+The Heading of the 2nd Page = Sydney Testers Car Insurance<br/>
+The Heading of the 3rd Page = Sydney Testers Life Insurance<br/>
+ Make of Car = Lexus
+ Year of Car = 2010
+ Driver's Age = 18
+ Gender = Female
+ State = South Australia
+ Email-Id = abc@xyz.com
+The final Car Insurance Quote = $51.98<br/>
+Test case 1 has completed execution, you can also check Console for output<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>scripts.VerifyGetCarQuote@178f375</td></tr>
+<tr>
+<td title='scripts.VerifyInvalidGetCarQuoteWithErrMessages.testVerifyInvalidAgeErrMessage()'><b>testVerifyInvalidAgeErrMessage</b><br>Test class: scripts.VerifyInvalidGetCarQuoteWithErrMessages<br/>
+<a href="#Output-20065453" onClick='toggleBox("Output-20065453", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20065453" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20065453">
+Test case 3 has begun for Invalid case check with Age Error message validation<br/>
+Age Error Message displayed correctly on Page2<br/>
+Driver's Age = rrr<br/>
+Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.<br/>
+Test case 3 has completed execution, you can also check Console for output<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21</td></tr>
+<tr>
+<td title='scripts.VerifyInvalidGetCarQuoteWithErrMessages.testVerifyInvalidEmailIDErrMessage()'><b>testVerifyInvalidEmailIDErrMessage</b><br>Test class: scripts.VerifyInvalidGetCarQuoteWithErrMessages<br/>
+<a href="#Output-6874724" onClick='toggleBox("Output-6874724", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6874724" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6874724">
+Test case 4 has begun for Invalid case check with Email-Id Error message validation<br/>
+Email-Id = ab<br/>
+Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.<br/>
+Test case 4 has completed execution, you can also check Console for output<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21</td></tr>
+<tr>
+<td title='scripts.VerifyInvalidGetCarQuoteWithErrMessages.testVerifyInvalidYearErrMessage()'><b>testVerifyInvalidYearErrMessage</b><br>Test class: scripts.VerifyInvalidGetCarQuoteWithErrMessages<br/>
+<a href="#Output-29952668" onClick='toggleBox("Output-29952668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29952668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29952668">
+Test case 2 has begun for Invalid case check with Year Error message validation<br/>
+Year Error Message2 displayed correctly on Page2<br/>
+Year of Car = abc<br/>
+Incorrect value entered hence, Get Quote button was not enabled and as well Car Insurance Quote will not be generated.<br/>
+Test case 2 has completed execution, you can also check Console for output<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>scripts.VerifyInvalidGetCarQuoteWithErrMessages@c87b21</td></tr>
+</table><p>
+</body>
+</html>
